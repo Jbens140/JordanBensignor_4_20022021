@@ -6,11 +6,32 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.GridHeader
+{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    padding: 20px;
+}
+.GridHeaderNav
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.HeaderNav
+{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:none;
+
+}
 
 a,
 button {
-    transition: all .3s ease-in-out;
+    
     outline: none!important;
+    text-decoration: none;
 }
 
 a:hover {
@@ -31,7 +52,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -93,6 +113,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    width: 100%;
 }
 
 .b-parallax {
@@ -292,19 +313,12 @@ a:hover {
     z-index: 1;
 }
 
-.navbar-brand {
-    height: auto;
-    padding: 3px 15px;
-    font-size: 25px;
-    font-weight: normal;
-    font-weight: 600;
-    line-height: 44px;
-}
 
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
-    display: inline;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-brand img[src$=svg] {
@@ -955,16 +969,7 @@ h4 {
         left: -1px;
         right: -1px;
     }
-    .navbar-collapse {
-        padding: 0;
-        overflow-x: hidden;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-    }
-    .navbar-brand img {
-        max-height: 40px;
-        width: auto;
-    }
+   
     .nav-invert .navbar-header {
         float: none;
         width: 100%;
