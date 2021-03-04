@@ -65,6 +65,17 @@ body {
     font-weight: bold;
     font-size: 20px;
 }
+.PositionInformationForm
+{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 26%;
+}
+.PositionForm
+{
+    padding-top: 50px;
+}
 a,
 button {
     
