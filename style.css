@@ -38,6 +38,19 @@ body {
 {
     padding-top: 90px;
 }
+.banner-title
+{
+    background-color: rgba(255, 255, 255, 0.548);
+    padding: 25px;
+}
+.banner-title .text-color
+{
+    color: rgb(0, 0, 0) !important;
+}
+.banner-title #cta-hero, .banner-title .cta-hero, form .cta-hero
+{
+    color: rgb(3, 2, 0) !important;
+}
 .Size-comment
 {
     font-size: 22px;
@@ -49,6 +62,12 @@ body {
 }
 .text-center.white
 {
+    font-weight: bold;
+}
+.footerTitle
+{
+    font-size: 20px !important;
+    color: #000000 !important;
     font-weight: bold;
 }
 .TitlePageContact
@@ -64,6 +83,7 @@ body {
     justify-content: center;
     font-weight: bold;
     font-size: 20px;
+    color: rgb(153, 32, 32) !important;
 }
 .PositionInformationForm
 {
