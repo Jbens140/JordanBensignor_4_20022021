@@ -26,6 +26,11 @@ body {
     text-decoration:none;
 
 }
+.HoverNav:hover
+{
+    font-weight: bold;
+    text-decoration: underline !important;
+}
 .Size-text
 {
     font-size: 25px;
